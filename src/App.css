@@ -1,0 +1,70 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 40px auto;
+  width: 60%;
+  padding: 20px;
+  border-radius: 15px;
+
+}
+.header{
+  letter-spacing: 7px;
+}
+
+.todo-cart{
+  display: flex;
+  justify-content: center;
+}
+input{
+  padding: 3px;
+
+}
+.check{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.delete{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.button{
+  background-color: orangered;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  margin: 0px 10px;
+}
+.todo-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.todo-name{
+  text-align: left;
+  width: 150px;
+}
+.todo-wrapper{
+  margin-top: 20px;
+  height: 300px;
+  overflow: auto;
+}
+.complete{
+  text-decoration: line-through;
+  color: red;
+}
+.todoCount{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+}
