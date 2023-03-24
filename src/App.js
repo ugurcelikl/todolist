@@ -9,6 +9,7 @@ function App() {
   let newTodo = todoList;
   
   function changeText(event){
+    console.log(event);
     setTodo(event.target.value)
   }
   const addTodoList = (()=>{
